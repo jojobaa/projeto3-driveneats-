@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>DrivenEats</title>
+</head>
+
+<body>
+    <header>
+        <div class="paiTopo">
+        <div class="topo">
+            <div class="titulo">
+                <h1> DrivenEats</h1>
+                <p>Sua comida em 6 minutos</p>
+            </div>
+        </div>
+    </div>
+    </header>
+    <div class="container">
+        <div class="pratoPrincipal">
+            <h2>
+                Primeiro, seu prato
+            </h2> 
+            <div class="caixaPedido" >
+            <div class="pedidoPrato" onclick="pratoSelecionado(this)">
+                <img src="imgPratos/frango_yin_yang 1.png" class="imagemPedido">
+               <p class="nomePedido">Frango Yin Yang</p>
+               <p class="descricao">Um pouco de batata, um pouco de salada</p>
+               <div class="icone">
+               <p class="precoPrato">R$ 14.90</p>  
+                <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoPrato" onclick="pratoSelecionado(this)">
+                <img src="imgPratos/comida-japonesa-1.webp">
+               <p class="nomePedido"> Comida Japonesa</p>
+               <p class="descricao"> Temaki, Niguiri, Temari e muito mais </p>
+               <div class="icone">
+               <p class="precoPrato">R$ 20.00</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoPrato" onclick="pratoSelecionado(this)">
+                <img src="imgPratos/pescado frito.jpg">
+               <p class="nomePedido"> Fish and Chips</p>
+               <p class="descricao">Um clássico da culinária britânica agora em delivery</p>
+               <div class="icone">
+               <p class="precoPrato">R$ 45.00</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoPrato" onclick="pratoSelecionado(this)">
+                <img src="imgPratos/sandwichs filete de pollo.png">
+               <p class="nomePedido">Hambúrguer com fritas</p>
+               <p class="descricao"> Variações de suíno e vegetariano</p>
+               <div class="icone">
+               <p class="precoPrato">R$ 17.50</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoPrato" onclick="pratoSelecionado(this)">
+                <img src="imgPratos/tacos.jpg">
+               <p class="nomePedido">Tacos</p>
+               <p class="descricao">Mexicano original e variações de carne de porco</p>
+               <div class="icone">
+               <p class="precoPrato">R$ 24.50</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoPrato" onclick="pratoSelecionado(this)">
+                <img src="imgPratos/salada.jpg">
+               <p class="nomePedido">Saladinha</p>
+               <p class="descricao"> Opção com maionese, e adicionais a gosto </p>
+               <div class="icone">
+               <p class="precoPrato">R$ 24.00</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoPrato" onclick=" pratoSelecionado(this)">
+                <img src="imgPratos/pastelzinho.jpg">
+               <p class="nomePedido">Pasteizinhos</p>
+               <p class="descricao"> Temos de Queijo, carne, frango e muitos outros</p>
+               <div class="icone">
+               <p class="precoPrato">R$ 10.00</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            </div>
+        </div>      
+        <div class="bebidas">
+            <h2>
+                Agora, sua bebida
+            </h2>
+            <div class="caixaBebidas">
+            <div class="pedidoBebida" onclick="bebidaSelecionada(this)">
+              <img src="imgBebidas/agua-de-coco.jpg">
+               <p class="nomeBebida">Água de coco</p>
+               <p class="descricao">1 unidade</p>
+               <div class="icone">
+               <p class="precoBebida">R$ 3.00</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoBebida"onclick="bebidaSelecionada(this)">
+                <img src="imgBebidas/caipirinha.jpg">
+               <p class="nomeBebida"> Caipirinha</p>
+               <p class="descricao">Drink </p>
+               <div class="icone">
+               <p class="precoBebida">R$ 10.00</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+             <div class="pedidoBebida" onclick="bebidaSelecionada(this)">
+                <img src="imgBebidas/coquinha_gelada 1.png">
+               <p class="nomeBebida">Coquinha gelada</p>
+               <p class="descricao">Lata 350ml</p>
+               <div class="icone">
+               <p class="precoBebida">R$ 4.90</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div> 
+            <div class="pedidoBebida" onclick="bebidaSelecionada(this)">
+                <img src="imgBebidas/suco-de-abacaxi.jpg">
+               <p class="nomeBebida">Suco de abacaxi</p>
+               <p class="descricao">Copo 500ml</p>
+               <div class="icone">
+               <p class="precoBebida">R$ 5.00</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoBebida" onclick="bebidaSelecionada(this)">
+                <img src="imgBebidas/suco-de-laranja.jpg">
+               <p class="nomeBebida">Suco de laranja</p>
+               <p class="descricao">Copo 500ml</p>
+               <div class="icone">
+               <p class="precoBebida">R$ 5.00</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoBebida" onclick="bebidaSelecionada(this)">
+                <img src="imgBebidas/suco-de-maracuja.jpg">
+               <p class="nomeBebida">Suco de maracujá</p>
+               <p class="descricao">Copo 500ml</p>
+               <div class="icone">
+               <p class="precoBebida">R$ 5.00</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoBebida" onclick="bebidaSelecionada(this)">
+                <img src="imgBebidas/vinho.jpg">
+               <p class="nomeBebida">Vinho</p>
+               <p class="descricao">1 taça</p>
+               <div class="icone">
+               <p class="precoBebida">R$ 15.00</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+           </div>
+       </div>
+        <div class="sobremesa">
+            <h2>
+                Por fim, sua sobremesa
+            </h2>
+            <div class="caixaSobremesa">
+            <div class="pedidoSobremesa" onclick="sobremesaSelecionada(this)">
+                <img src="imgSobremesas/pudim 1.png">
+               <p class="nomeSobremesa">Pudim do tradicional</p>
+               <p class="descricao">Apenas pudim</p>
+               <div class="icone">
+               <p class="precoSobremesa">R$ 7.90</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoSobremesa" onclick="sobremesaSelecionada(this)">
+                <img src="imgSobremesas/chocolate.jpg">
+               <p class="nomeSobremesa">Pudim de chocolate</p>
+               <p class="descricao">Apenas pudim</p>
+               <div class="icone">
+               <p class="precoSobremesa">R$ 8.90</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoSobremesa" onclick="sobremesaSelecionada(this)">
+                <img src="imgSobremesas/doce-de-coco-cubano-5.jpg">
+               <p class="nomeSobremesa">Doce de coco cubano</p>
+               <p class="descricao">opção com canela</p>
+               <div class="icone">
+               <p class="precoSobremesa">R$ 10.90</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoSobremesa" onclick="sobremesaSelecionada(this)">
+                <img src="imgSobremesas/musse de morango.jpg">
+               <p class="nomeSobremesa">Musse de morango</p>
+               <p class="descricao">opção de adicionar frutas </p>
+               <div class="icone">
+               <p class="precoSobremesa">R$ 7.50</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoSobremesa" onclick="sobremesaSelecionada(this)">
+                <img src="imgSobremesas/bolo-de-doce-de-leite-merengue-italiano.jpg">
+               <p class="nomeSobremesa">Bolo de doce de leite</p>
+               <p class="descricao">Merengue italiano</p>
+               <div class="icone">
+               <p class="precoSobremesa">R$ 27.50</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoSobremesa" onclick="sobremesaSelecionada(this)">
+                <img src="imgSobremesas/suspiro.jpg">
+               <p class="nomeSobremesa">Suspiro</p>
+               <p class="descricao">porção para 2 pessoas</p>
+               <div class="icone">
+               <p class="precoSobremesa">R$ 10.00</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+            <div class="pedidoSobremesa" onclick="sobremesaSelecionada(this)">
+                <img src="imgSobremesas/torta de maçã.jpg">
+               <p class="nomeSobremesa">Torta de maçã tradicional</p>
+               <p class="descricao">1 fatia</p>
+               <div class="icone">
+               <p class="precoSobremesa">R$ 12.00</p>
+               <img src="/imgIcone/Vector.png">
+            </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <div class="barraDeBaixo">
+        <div class="backgroundP">
+        <p>
+            Selecione os 3 itens <br>
+            para fechar o pedido
+        </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="barraDeBaixo2 escondido" onclick="enviarPedido()">
+            <div class="backgroundP2">
+        <p>
+         Fechar pedido
+        </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

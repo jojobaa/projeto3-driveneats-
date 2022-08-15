@@ -1,0 +1,248 @@
+body{
+    width: 414px;
+    margin: 0 auto;
+    background-color: #E5E5E5;
+}
+img{
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 144px;
+    height: 87px;
+}
+p{
+    padding: 3px;
+}
+
+.nomePedido {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1b1b;
+    padding-top: 10px;
+}
+.nomeBebida{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1b1b;
+    padding-top: 10px;
+}
+.nomeSobremesa{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1b1b;
+    padding-top: 10px;
+}
+.descricao{
+    font-family: 'Roboto', sans-serif;
+    color: #A6A6A6;
+}
+.precoPrato {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+
+}
+.precoBebida{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+.precoSobremesa{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+.paiTopo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.topo {
+    
+    width: 414px;
+    height: 92px;
+    background-color: #CF2B2B;
+    box-shadow: 0px 5px #ccccccfb;
+}
+
+.titulo {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.topo h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 44px;
+    color: #FFFFFF;
+}
+
+.topo p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.container {
+    width: 414px;
+    margin-top: 95px;
+}
+
+h2{
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
+    padding-left: 15px;
+    padding-top: 30px;
+    color: #333333;
+}
+.caixaPedido{
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-top: 10px;
+}
+.pedidoPrato{
+    border: solid 5px #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px #525050fb;
+    width: 172px;
+    height: 190px;
+    margin-left: 15px;
+    padding: 10px;
+}
+.pedidoPrato p{
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+.pedidoBebida p{
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    padding-top: 8px;
+}
+.pedidoSobremesa p{
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.caixaBebidas{
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-top: 10px;
+}
+.pedidoBebida{
+    border: solid 5px #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px #525050fb;
+    width: 172px;
+    height: 170px;
+    margin-left: 15px;
+    padding: 10px;
+}
+.caixaSobremesa{
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-top: 10px;
+    margin-bottom: 120px;
+}
+.pedidoSobremesa{
+    border: solid 5px #FFFFFF;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px #525050fb;
+    border-radius: 9px;
+    width: 172px;
+    height: 170px;
+    margin-left: 15px;
+    padding: 10px;
+}
+.barraDeBaixo{
+    background-color: #FFFFFF;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 414px;
+    height: 92px;
+    bottom: 0;
+     
+}
+.backgroundP{
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: #CBCBCB;
+}
+.barraDeBaixo p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-top: 7px;
+}
+
+.selecionarPrato{
+    border: solid 5px #32B72F;
+}
+.selecionarBebida{
+    border: solid 5px #32B72F;
+}
+.selecionarSobremesa{
+    border: solid 5px #32B72F;
+}
+
+.barraDeBaixo2 {
+    display:none;
+    background-color: #FFFFFF;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 414px;
+    height: 92px;
+    bottom: 0;   
+}
+.backgroundP2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: #32B72F;
+}
+.barraDeBaixo2 p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-top: 7px;
+}
+.icone{
+    display: flex;
+    justify-content: space-between;
+}
+.icone img{
+    display: none ;
+}
+.icone img{
+    width: 19px;
+    height: 19px;
+}
+.selecionarPrato .icone img{
+    display:block;
+}
+.selecionarBebida .icone img{
+    display:block;
+}
+.selecionarSobremesa .icone img{
+    display: block;
+}
+.escondido{
+    display: none;
+}
